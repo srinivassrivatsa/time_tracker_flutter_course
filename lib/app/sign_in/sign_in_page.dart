@@ -36,7 +36,10 @@ class SignInPage extends StatelessWidget {
                 'Sign in with Google',
                 style: TextStyle(color: Colors.black87, fontSize: 15.0),
               ),
-              style: ElevatedButton.styleFrom(primary: Colors.white),
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.white,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(4.0)))),
               onPressed: () {}),
         ],
       ),
